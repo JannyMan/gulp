@@ -1,0 +1,1 @@
+function test1(){}var app=angular.module("app",["ui.router"]);angular.module("app").config(["$stateProvider","$urlRouterProvider",function(e,t){e.state("home",{url:"/home",templateUrl:"../view/home_tpl.html"}),t.otherwise("home")}]);
